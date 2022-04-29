@@ -1,0 +1,34 @@
+h1, .lead {
+    text-shadow: 0 1px 5px #000000;
+}
+
+main {
+	background: rgb(255,255,255);
+	background: -moz-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(187,187,187,1) 100%);
+	background: -webkit-radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(187,187,187,1) 100%);
+	background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(187,187,187,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#bbbbbb",GradientType=1);
+}
+
+.profile {
+	display: block;
+    overflow: hidden;
+    max-height: 50vh;
+}
+
+.ms-3 {
+    margin-left: 1rem !important;
+}
+
+.link-dark {
+    color: #212529;
+}
+
+.bi {
+    vertical-align: -0.125em;
+    fill: currentColor;
+}
+
+.row {
+    margin-top: 10%;
+}
